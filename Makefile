@@ -111,6 +111,6 @@ ods.js: $(ODSDEPS)
 
 .PHONY: dist-deps
 dist-deps: ods.js
-	cp node_modules/codepage/dist/cpexcel.full.js dist/cpexcel.js
+	cp cpexcel.js dist/cpexcel.js
 	cp jszip.js dist/jszip.js
 	cp ods.js dist/ods.js
